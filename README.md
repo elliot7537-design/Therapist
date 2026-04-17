@@ -44,11 +44,28 @@ python3 -m http.server 8080
 
 ## Imagery
 
-The site ships with custom SVG scene illustrations in `images/` — no
-external image dependencies, no stock-photo rights to worry about, and
-they render crisply at any size:
+The site loads photos from Unsplash (free, commercial-use, no
+attribution required). Each image is stacked with a custom SVG
+fallback in `images/` — if Unsplash ever fails to load a specific
+photo, the SVG shows through underneath so the site never looks
+broken.
 
-| File              | Used in                                             |
+### Unsplash photos currently wired in
+
+| Section                          | Unsplash slug         |
+| -------------------------------- | --------------------- |
+| Hero backdrop                    | `cB0rtI_FvNI` ([link](https://unsplash.com/photos/a-woman-looking-up-at-the-sun-with-her-eyes-closed-cB0rtI_FvNI)) |
+| Mission portrait                 | `F3nmpRsiM5g` ([link](https://unsplash.com/photos/F3nmpRsiM5g)) |
+| About / Kristen portrait         | `mEZ3PoFGs_k` ([link](https://unsplash.com/photos/mEZ3PoFGs_k)) |
+| Approach card (large)            | `MaeshPdBGV4` ([link](https://unsplash.com/photos/MaeshPdBGV4)) |
+| Approach card (small)            | `xgiK23gtX4A` ([link](https://unsplash.com/photos/xgiK23gtX4A)) |
+| Services — Personal Coaching     | `PQ9qr1SnqMU` ([link](https://unsplash.com/photos/PQ9qr1SnqMU)) |
+| Services — Spiritual Renewal     | `M_iqJHlus8A` ([link](https://unsplash.com/photos/M_iqJHlus8A)) |
+| Services — Seasons of Change     | `B66kzcaoiOY` ([link](https://unsplash.com/photos/B66kzcaoiOY)) |
+
+### SVG fallbacks in `images/`
+
+| File              | Fallback for                                        |
 | ----------------- | --------------------------------------------------- |
 | `hero.svg`        | Hero backdrop — sunrise over mountains, figure      |
 | `portrait.svg`    | Mission + About portrait blocks                     |
