@@ -179,7 +179,7 @@ button { font: inherit; }
   color: #fff;
   background:
     linear-gradient(170deg, rgba(12,30,34,0.45) 0%, rgba(12,30,34,0.1) 35%, rgba(12,30,34,0.65) 100%),
-    url("https://source.unsplash.com/cB0rtI_FvNI/1800x1200") center/cover no-repeat,
+    url("https://i.pinimg.com/736x/24/d9/5d/24d95dad4f55a7a259745b4d0d9eef1d.jpg") center/cover no-repeat,
     url("images/hero.svg") center/cover no-repeat,
     linear-gradient(160deg, #9cbac2 0%, #6f9aa3 55%, #4d7e86 100%);
   box-shadow: var(--shadow-lg);
@@ -372,7 +372,7 @@ button { font: inherit; }
   aspect-ratio: 3/4;
   border-radius: var(--radius-lg);
   background:
-    url("https://source.unsplash.com/F3nmpRsiM5g/900x1200") center/cover no-repeat,
+    url("https://i.pinimg.com/736x/a0/05/e8/a005e8455d4ae27dedd63b6d5988fa44.jpg") center/cover no-repeat,
     url("images/portrait.svg") center/cover no-repeat,
     #e4c59a;
   box-shadow: var(--shadow-md);
@@ -440,13 +440,13 @@ button { font: inherit; }
 }
 .ph-1 {
   background:
-    url("https://source.unsplash.com/MaeshPdBGV4/900x900") center/cover no-repeat,
+    url("https://i.pinimg.com/474x/03/af/fa/03affa438f7cc6503d97d9c9f15e5c0c.jpg") center/cover no-repeat,
     url("images/horizon.svg") center/cover no-repeat,
     #6f9aa3;
 }
 .ph-2 {
   background:
-    url("https://source.unsplash.com/xgiK23gtX4A/900x700") center/cover no-repeat,
+    url("https://i.pinimg.com/236x/45/2d/74/452d74bb890e01c5eaead96c98aeea16.jpg") center/cover no-repeat,
     url("images/dove.svg") center/cover no-repeat,
     #87a394;
 }
@@ -518,19 +518,19 @@ button { font: inherit; }
 }
 .v-coaching {
   background:
-    url("https://source.unsplash.com/PQ9qr1SnqMU/800x500") center/cover no-repeat,
+    url("https://i.pinimg.com/736x/d3/71/71/d37171765126c86df0b0720caf4dfa60.jpg") center/cover no-repeat,
     url("images/journal.svg") center/cover no-repeat,
     #d6b089;
 }
 .v-spiritual {
   background:
-    url("https://source.unsplash.com/M_iqJHlus8A/800x500") center/cover no-repeat,
+    url("https://i.pinimg.com/1200x/2d/f5/03/2df503f863eb93a7d39f67eb66fd736c.jpg") center/cover no-repeat,
     url("images/bible.svg") center/cover no-repeat,
     #87a8a0;
 }
 .v-transitions {
   background:
-    url("https://source.unsplash.com/B66kzcaoiOY/800x500") center/cover no-repeat,
+    url("https://i.pinimg.com/564x/43/a2/92/43a29237c8ae1453a084934d3a358584.jpg") center/cover no-repeat,
     url("images/gate.svg") center/cover no-repeat,
     #8aa7ac;
 }
@@ -696,7 +696,7 @@ button { font: inherit; }
   aspect-ratio: 3/4;
   border-radius: var(--radius-lg);
   background:
-    url("https://source.unsplash.com/mEZ3PoFGs_k/900x1200") center/cover no-repeat,
+    url("https://i.pinimg.com/736x/a0/05/e8/a005e8455d4ae27dedd63b6d5988fa44.jpg") center/cover no-repeat,
     url("images/portrait.svg") center/cover no-repeat,
     #e4c59a;
   box-shadow: var(--shadow-md);
