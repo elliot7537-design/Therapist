@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 700" preserveAspectRatio="xMidYMid slice" role="img" aria-label="A figure at a lakeshore looking across water toward sunrise mountains">
+  <defs>
+    <linearGradient id="hSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e4ecef"/>
+      <stop offset="0.5" stop-color="#a8c6cc"/>
+      <stop offset="1" stop-color="#6c95a0"/>
+    </linearGradient>
+    <radialGradient id="hSun" cx="0.5" cy="0.55" r="0.35">
+      <stop offset="0" stop-color="#fdf3da" stop-opacity="0.95"/>
+      <stop offset="0.5" stop-color="#f3d59d" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#f3d59d" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="hWater" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9cbac2"/>
+      <stop offset="1" stop-color="#2e525a"/>
+    </linearGradient>
+    <linearGradient id="hMtn" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#456c62"/>
+      <stop offset="1" stop-color="#2b4a42"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="700" fill="url(#hSky)"/>
+  <circle cx="300" cy="380" r="80" fill="#fdf3da" opacity="0.9"/>
+  <rect width="600" height="700" fill="url(#hSun)"/>
+
+  <!-- Mountains -->
+  <path fill="url(#hMtn)" opacity="0.9"
+    d="M0,440 L80,360 L180,400 L260,340 L340,380 L440,330 L520,370 L600,350 L600,450 L0,450 Z"/>
+
+  <!-- Water surface -->
+  <rect x="0" y="450" width="600" height="200" fill="url(#hWater)"/>
+
+  <!-- Sun reflection -->
+  <ellipse cx="300" cy="460" rx="90" ry="6" fill="#fdf3da" opacity="0.8"/>
+  <ellipse cx="300" cy="480" rx="60" ry="4" fill="#fdf3da" opacity="0.55"/>
+  <ellipse cx="300" cy="500" rx="40" ry="3" fill="#fdf3da" opacity="0.35"/>
+  <ellipse cx="300" cy="520" rx="26" ry="2.5" fill="#fdf3da" opacity="0.22"/>
+
+  <!-- Shoreline -->
+  <path d="M0,650 C120,620 240,640 380,620 C480,608 540,620 600,610 L600,700 L0,700 Z" fill="#2e535a"/>
+
+  <!-- Figure silhouette standing at shore -->
+  <g transform="translate(240 530)" fill="#102824">
+    <circle cx="0" cy="-34" r="10"/>
+    <path d="M-12,-24 L-14,40 L14,40 L12,-24 Z"/>
+    <path d="M-12,-10 L-28,20 L-22,22 L-8,2 Z"/>
+    <path d="M12,-10 L28,20 L22,22 L8,2 Z"/>
+  </g>
+
+  <!-- Reflection of figure -->
+  <g transform="translate(240 620) scale(1,-0.3)" fill="#102824" opacity="0.35">
+    <circle cx="0" cy="-34" r="10"/>
+    <path d="M-12,-24 L-14,40 L14,40 L12,-24 Z"/>
+  </g>
+</svg>

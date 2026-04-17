@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Open journal with pen and coffee cup on warm surface">
+  <defs>
+    <linearGradient id="jBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f3e5cf"/>
+      <stop offset="1" stop-color="#d6b887"/>
+    </linearGradient>
+    <radialGradient id="jLight" cx="0.3" cy="0.2" r="0.7">
+      <stop offset="0" stop-color="#fff6e4" stop-opacity="0.6"/>
+      <stop offset="1" stop-color="#fff6e4" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="page" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fffdf7"/>
+      <stop offset="1" stop-color="#ecdfc4"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#jBg)"/>
+  <rect width="600" height="400" fill="url(#jLight)"/>
+
+  <!-- Open journal -->
+  <g transform="translate(60 130) rotate(-6)">
+    <rect x="0" y="0" width="360" height="220" fill="#4a2f1f" rx="4"/>
+    <rect x="6" y="6" width="348" height="208" fill="url(#page)" rx="2"/>
+    <line x1="180" y1="6" x2="180" y2="214" stroke="#c8b68a" stroke-width="2"/>
+    <!-- Text lines -->
+    <g stroke="#b19466" stroke-width="3" stroke-linecap="round">
+      <line x1="26" y1="40" x2="160" y2="40"/>
+      <line x1="26" y1="66" x2="150" y2="66"/>
+      <line x1="26" y1="92" x2="165" y2="92"/>
+      <line x1="26" y1="118" x2="140" y2="118"/>
+      <line x1="26" y1="144" x2="155" y2="144"/>
+    </g>
+    <g stroke="#b19466" stroke-width="3" stroke-linecap="round" opacity="0.7">
+      <line x1="200" y1="40" x2="330" y2="40"/>
+      <line x1="200" y1="66" x2="320" y2="66"/>
+      <line x1="200" y1="92" x2="335" y2="92"/>
+    </g>
+  </g>
+
+  <!-- Pen -->
+  <g transform="translate(320 120) rotate(30)">
+    <rect x="0" y="0" width="150" height="10" rx="5" fill="#2c1a10"/>
+    <rect x="140" y="-2" width="22" height="14" rx="3" fill="#c4a06a"/>
+    <path d="M162,5 l14,-3 l-14,-3 z" fill="#2c1a10"/>
+  </g>
+
+  <!-- Coffee cup -->
+  <g transform="translate(440 210)">
+    <ellipse cx="60" cy="20" rx="64" ry="14" fill="#f3e5cf"/>
+    <path d="M-4,20 C-4,80 24,120 60,120 C96,120 124,80 124,20 Z" fill="#fdfaf2"/>
+    <ellipse cx="60" cy="20" rx="50" ry="10" fill="#6b4a2a"/>
+    <path d="M124,40 C150,40 156,70 134,80 L124,80 Z" fill="none" stroke="#fdfaf2" stroke-width="6"/>
+    <!-- Steam -->
+    <g stroke="#ffffff" stroke-width="3" fill="none" opacity="0.55" stroke-linecap="round">
+      <path d="M40,0 q-6,-14 4,-22 q-6,-14 4,-22"/>
+      <path d="M66,0 q-6,-14 4,-22 q-6,-14 4,-22"/>
+    </g>
+  </g>
+</svg>

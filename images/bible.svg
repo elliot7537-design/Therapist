@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Open Bible with soft light and a sprig of olive">
+  <defs>
+    <linearGradient id="bBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#dfe7e4"/>
+      <stop offset="1" stop-color="#7aa39b"/>
+    </linearGradient>
+    <radialGradient id="bGlow" cx="0.5" cy="0.3" r="0.6">
+      <stop offset="0" stop-color="#fff6e4" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#fff6e4" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="bPage" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fffdf7"/>
+      <stop offset="1" stop-color="#ecdfc4"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#bBg)"/>
+  <rect width="600" height="400" fill="url(#bGlow)"/>
+
+  <!-- Open book -->
+  <g transform="translate(120 130)">
+    <!-- cover / spine -->
+    <path d="M-10,200 L-30,180 C50,150 110,148 180,170 L180,200 Z" fill="#4a2f1f"/>
+    <path d="M370,200 L390,180 C310,150 250,148 180,170 L180,200 Z" fill="#4a2f1f"/>
+    <!-- pages -->
+    <path d="M0,190 C60,170 120,168 180,175 L180,60 C120,52 60,56 0,78 Z" fill="url(#bPage)"/>
+    <path d="M360,190 C300,170 240,168 180,175 L180,60 C240,52 300,56 360,78 Z" fill="url(#bPage)"/>
+    <!-- center crease -->
+    <line x1="180" y1="60" x2="180" y2="188" stroke="#c8b68a" stroke-width="2"/>
+    <!-- lines of text -->
+    <g stroke="#b19466" stroke-width="2.5" stroke-linecap="round">
+      <line x1="24" y1="94" x2="160" y2="92"/>
+      <line x1="24" y1="112" x2="150" y2="110"/>
+      <line x1="24" y1="130" x2="160" y2="128"/>
+      <line x1="24" y1="148" x2="140" y2="146"/>
+      <line x1="24" y1="166" x2="155" y2="164"/>
+    </g>
+    <g stroke="#b19466" stroke-width="2.5" stroke-linecap="round">
+      <line x1="200" y1="92" x2="336" y2="94"/>
+      <line x1="200" y1="110" x2="326" y2="112"/>
+      <line x1="200" y1="128" x2="340" y2="130"/>
+      <line x1="200" y1="146" x2="316" y2="148"/>
+      <line x1="200" y1="164" x2="330" y2="166"/>
+    </g>
+  </g>
+
+  <!-- Olive sprig -->
+  <g transform="translate(380 100)">
+    <path d="M0,0 C20,-20 60,-30 100,-20" stroke="#3d5d31" stroke-width="3" fill="none"/>
+    <g fill="#4a6e3d">
+      <ellipse cx="12" cy="-6" rx="10" ry="4" transform="rotate(-20 12 -6)"/>
+      <ellipse cx="34" cy="-14" rx="10" ry="4" transform="rotate(-20 34 -14)"/>
+      <ellipse cx="58" cy="-20" rx="10" ry="4" transform="rotate(-20 58 -20)"/>
+      <ellipse cx="80" cy="-22" rx="10" ry="4" transform="rotate(-20 80 -22)"/>
+    </g>
+  </g>
+
+  <!-- Light rays -->
+  <g stroke="#fff6e4" stroke-width="2" opacity="0.35" fill="none">
+    <line x1="300" y1="0" x2="220" y2="200"/>
+    <line x1="300" y1="0" x2="300" y2="200"/>
+    <line x1="300" y1="0" x2="380" y2="200"/>
+  </g>
+</svg>
