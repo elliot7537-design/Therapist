@@ -178,22 +178,21 @@ button { font: inherit; }
   padding: 22px;
   color: #fff;
   background:
-    radial-gradient(1200px 600px at 85% 0%, rgba(255,255,255,0.25), transparent 60%),
-    radial-gradient(900px 500px at 0% 100%, rgba(255,255,255,0.18), transparent 60%),
+    linear-gradient(170deg, rgba(12,30,34,0.35) 0%, rgba(12,30,34,0.05) 35%, rgba(12,30,34,0.55) 100%),
+    url("images/hero.svg") center/cover no-repeat,
     linear-gradient(160deg, #9cbac2 0%, #6f9aa3 55%, #4d7e86 100%);
   box-shadow: var(--shadow-lg);
 }
 
-/* subtle leaf motif */
-.hero-card::after {
+/* softening scrim for text legibility on the illustration */
+.hero-card::before {
   content: "";
-  position: absolute; right: -80px; bottom: -80px;
-  width: 420px; height: 420px;
-  background:
-    radial-gradient(closest-side, rgba(255,255,255,0.25), transparent 70%);
-  filter: blur(20px);
+  position: absolute; inset: 0;
+  background: linear-gradient(180deg, rgba(12,30,34,0.35) 0%, rgba(12,30,34,0) 40%, rgba(12,30,34,0.55) 100%);
   pointer-events: none;
+  z-index: 0;
 }
+.hero-card > * { position: relative; z-index: 1; }
 
 /* nav */
 .nav {
@@ -371,9 +370,7 @@ button { font: inherit; }
 .mission-photo {
   aspect-ratio: 3/4;
   border-radius: var(--radius-lg);
-  background:
-    linear-gradient(160deg, rgba(255,255,255,0.05), rgba(255,255,255,0.2)),
-    radial-gradient(140% 80% at 30% 20%, #e7d2b5 0%, #c8a27a 55%, #7b5a3e 100%);
+  background: url("images/portrait.svg") center/cover no-repeat, #e4c59a;
   box-shadow: var(--shadow-md);
 }
 .mission-chip {
@@ -438,14 +435,10 @@ button { font: inherit; }
   min-height: 240px;
 }
 .ph-1 {
-  background:
-    linear-gradient(160deg, rgba(255,255,255,0.0), rgba(79,125,115,0.35)),
-    radial-gradient(120% 90% at 20% 30%, #cadcd7 0%, #6f9aa3 60%, #2e534c 100%);
+  background: url("images/horizon.svg") center/cover no-repeat, #6f9aa3;
 }
 .ph-2 {
-  background:
-    linear-gradient(160deg, rgba(255,255,255,0.05), rgba(18,42,42,0.25)),
-    radial-gradient(140% 90% at 60% 40%, #bfd2c8 0%, #87a394 60%, #4f7d73 100%);
+  background: url("images/dove.svg") center/cover no-repeat, #87a394;
 }
 
 .card-body {
@@ -514,19 +507,13 @@ button { font: inherit; }
   height: 150px; border-radius: var(--radius-md);
 }
 .v-coaching {
-  background:
-    radial-gradient(90% 60% at 30% 30%, #e9d7bf 0%, #c9a37a 70%),
-    linear-gradient(180deg, #f5e4cc, #d6b089);
+  background: url("images/journal.svg") center/cover no-repeat, #d6b089;
 }
 .v-spiritual {
-  background:
-    radial-gradient(90% 60% at 70% 30%, #d2e0db 0%, #7aa39b 70%),
-    linear-gradient(180deg, #dfece6, #87a8a0);
+  background: url("images/bible.svg") center/cover no-repeat, #87a8a0;
 }
 .v-transitions {
-  background:
-    radial-gradient(90% 60% at 40% 40%, #cddadd 0%, #6f939a 70%),
-    linear-gradient(180deg, #dce7e9, #8aa7ac);
+  background: url("images/gate.svg") center/cover no-repeat, #8aa7ac;
 }
 
 /* ==========================================================
@@ -689,9 +676,7 @@ button { font: inherit; }
 .about-photo {
   aspect-ratio: 3/4;
   border-radius: var(--radius-lg);
-  background:
-    linear-gradient(160deg, rgba(255,255,255,0.05), rgba(18,42,42,0.25)),
-    radial-gradient(140% 90% at 50% 30%, #d9e6e1 0%, #8daea4 60%, #4f7d73 100%);
+  background: url("images/portrait.svg") center/cover no-repeat, #e4c59a;
   box-shadow: var(--shadow-md);
 }
 .about-copy p { max-width: 60ch; color: var(--ink-soft); margin: 0 0 16px; }

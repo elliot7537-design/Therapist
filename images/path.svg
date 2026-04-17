@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Path winding through hills toward sunrise">
+  <defs>
+    <linearGradient id="pSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e4ecef"/>
+      <stop offset="0.5" stop-color="#a8c6cc"/>
+      <stop offset="1" stop-color="#6c95a0"/>
+    </linearGradient>
+    <radialGradient id="pSun" cx="0.5" cy="0.6" r="0.3">
+      <stop offset="0" stop-color="#fdf3da" stop-opacity="0.95"/>
+      <stop offset="0.5" stop-color="#f3d59d" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#f3d59d" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="hill1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6d9589"/>
+      <stop offset="1" stop-color="#4e7a6d"/>
+    </linearGradient>
+    <linearGradient id="hill2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#456c62"/>
+      <stop offset="1" stop-color="#2b4a42"/>
+    </linearGradient>
+    <linearGradient id="hill3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#284741"/>
+      <stop offset="1" stop-color="#142e2c"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#pSky)"/>
+  <circle cx="400" cy="340" r="90" fill="#fdf3da" opacity="0.9"/>
+  <rect width="800" height="600" fill="url(#pSun)"/>
+
+  <!-- Back hill -->
+  <path fill="url(#hill1)" opacity="0.85"
+    d="M0,400 C150,360 260,380 380,340 C500,300 620,360 800,330 L800,600 L0,600 Z"/>
+
+  <!-- Mid hill -->
+  <path fill="url(#hill2)"
+    d="M0,460 C140,430 240,450 360,420 C500,380 620,440 800,410 L800,600 L0,600 Z"/>
+
+  <!-- Near hill with path -->
+  <path fill="url(#hill3)"
+    d="M0,520 C140,500 260,520 400,500 C540,480 680,520 800,500 L800,600 L0,600 Z"/>
+
+  <!-- Curving dirt path -->
+  <path d="M400,370 C380,420 340,460 260,500 C200,530 140,560 60,580"
+        fill="none" stroke="#a88b5d" stroke-width="14" stroke-linecap="round" opacity="0.85"/>
+  <path d="M400,370 C380,420 340,460 260,500 C200,530 140,560 60,580"
+        fill="none" stroke="#d4b680" stroke-width="6" stroke-linecap="round" opacity="0.7"/>
+
+  <!-- Small trees dotting hills -->
+  <g fill="#102824">
+    <path d="M180,440 l-6,14 l12,0 z"/><rect x="178" y="452" width="4" height="6"/>
+    <path d="M260,418 l-5,12 l10,0 z"/><rect x="258" y="428" width="3" height="5"/>
+    <path d="M560,420 l-6,14 l12,0 z"/><rect x="558" y="432" width="4" height="5"/>
+    <path d="M640,436 l-5,12 l10,0 z"/><rect x="638" y="446" width="3" height="5"/>
+  </g>
+
+  <!-- Birds -->
+  <g fill="none" stroke="#163036" stroke-width="2" stroke-linecap="round" opacity="0.8">
+    <path d="M220,180 q8,-8 16,0 q8,-8 16,0"/>
+    <path d="M300,150 q7,-7 14,0 q7,-7 14,0"/>
+    <path d="M500,170 q7,-7 14,0 q7,-7 14,0"/>
+  </g>
+</svg>

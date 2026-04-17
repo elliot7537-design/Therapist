@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Warm portrait illustration of a woman">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f3e5cf"/>
+      <stop offset="0.55" stop-color="#e4c59a"/>
+      <stop offset="1" stop-color="#b38451"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="0.5" cy="0.28" r="0.5">
+      <stop offset="0" stop-color="#fff6e4" stop-opacity="0.7"/>
+      <stop offset="0.6" stop-color="#f3d9a7" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#b38451" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="skin" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#efcda0"/>
+      <stop offset="1" stop-color="#c79d6a"/>
+    </linearGradient>
+    <linearGradient id="hair" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4a2f1f"/>
+      <stop offset="1" stop-color="#2c1a10"/>
+    </linearGradient>
+    <linearGradient id="top" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f5efe6"/>
+      <stop offset="1" stop-color="#d6cab6"/>
+    </linearGradient>
+    <radialGradient id="cheek" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#e8a07d" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#e8a07d" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="600" height="800" fill="url(#bg)"/>
+  <rect width="600" height="800" fill="url(#halo)"/>
+
+  <!-- Subtle light rays -->
+  <g opacity="0.18" stroke="#fff6e4" stroke-width="2" fill="none">
+    <line x1="300" y1="-60" x2="160" y2="260"/>
+    <line x1="300" y1="-60" x2="240" y2="260"/>
+    <line x1="300" y1="-60" x2="360" y2="260"/>
+    <line x1="300" y1="-60" x2="440" y2="260"/>
+  </g>
+
+  <!-- Shoulders / blouse -->
+  <path fill="url(#top)" d="M60,800 C90,620 170,560 300,550 C430,560 510,620 540,800 Z"/>
+
+  <!-- Neck -->
+  <path fill="url(#skin)" d="M258,560 L262,600 Q300,620 338,600 L342,560 Z"/>
+
+  <!-- Head -->
+  <ellipse cx="300" cy="440" rx="108" ry="126" fill="url(#skin)"/>
+
+  <!-- Cheek warmth -->
+  <circle cx="250" cy="470" r="28" fill="url(#cheek)"/>
+  <circle cx="350" cy="470" r="28" fill="url(#cheek)"/>
+
+  <!-- Hair -->
+  <path fill="url(#hair)" d="M300,300
+    C220,300 180,360 180,430
+    C172,430 170,448 178,460
+    L186,560
+    C190,540 198,520 206,510
+    C208,470 214,430 230,400
+    C260,370 300,360 340,372
+    C376,384 396,410 410,450
+    C414,478 416,510 412,540
+    C420,524 428,512 432,500
+    L430,440
+    C438,430 434,408 422,406
+    C418,356 378,300 300,300 Z"/>
+
+  <!-- Soft hair strand -->
+  <path fill="#3b2617" opacity="0.6"
+    d="M200,470 C190,520 196,560 210,600 L216,600 C208,560 206,520 210,480 Z"/>
+
+  <!-- Closed serene eyes (lashes) -->
+  <g stroke="#3a2415" stroke-width="3" stroke-linecap="round" fill="none">
+    <path d="M248,436 q14,-6 30,0"/>
+    <path d="M322,436 q14,-6 30,0"/>
+  </g>
+
+  <!-- Subtle brow -->
+  <g stroke="#3a2415" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.75">
+    <path d="M244,418 q16,-6 34,-2"/>
+    <path d="M322,416 q16,-4 34,2"/>
+  </g>
+
+  <!-- Nose shadow -->
+  <path d="M298,448 q-4,26 2,40 q4,6 12,4" fill="none" stroke="#b7814f" stroke-width="2" stroke-linecap="round" opacity="0.55"/>
+
+  <!-- Soft smile -->
+  <path d="M282,510 q18,12 36,0" fill="none" stroke="#9a5b3a" stroke-width="3" stroke-linecap="round"/>
+</svg>

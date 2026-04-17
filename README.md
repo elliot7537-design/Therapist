@@ -42,14 +42,36 @@ python3 -m http.server 8080
 - Availability: Mon–Fri 9:00 am – 5:00 pm, Sat–Sun closed.
 - Phone: (714) 287-6642.
 
-## Image placeholders
+## Imagery
 
-Hero and portrait areas currently use soft gradient blocks so the layout
-reads cleanly without any image rights concerns. Replace these two
-backgrounds when Kristen's photography is ready:
+The site ships with custom SVG scene illustrations in `images/` — no
+external image dependencies, no stock-photo rights to worry about, and
+they render crisply at any size:
 
-- `.hero-card` (in `styles.css`) — the main hero background.
-- `.mission-photo` and `.about-photo` — portrait blocks.
+| File              | Used in                                             |
+| ----------------- | --------------------------------------------------- |
+| `hero.svg`        | Hero backdrop — sunrise over mountains, figure      |
+| `portrait.svg`    | Mission + About portrait blocks                     |
+| `horizon.svg`     | Approach card (large) — lakeshore at sunrise        |
+| `dove.svg`        | Approach card (small) — open hands with dove        |
+| `journal.svg`     | Services: "Personal Life Coaching"                  |
+| `bible.svg`       | Services: "Spiritual Renewal Sessions"              |
+| `gate.svg`        | Services: "Seasons of Change Coaching"              |
+| `path.svg`        | Spare — winding path through hills                  |
 
-For each, replace the `background` declaration with
-`background: url('path/to/photo.jpg') center/cover;`.
+### Swapping in real photography
+
+When Kristen has approved photos, swap them in by editing the relevant
+`background` declaration in `styles.css`. For example:
+
+```css
+.hero-card {
+  background:
+    linear-gradient(170deg, rgba(12,30,34,0.35), rgba(12,30,34,0.55)),
+    url("images/kristen-hero.jpg") center/cover no-repeat;
+}
+.mission-photo,
+.about-photo {
+  background: url("images/kristen-portrait.jpg") center/cover no-repeat;
+}
+```
