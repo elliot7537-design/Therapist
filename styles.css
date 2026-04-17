@@ -517,13 +517,22 @@ button { font: inherit; }
   height: 150px; border-radius: var(--radius-md);
 }
 .v-coaching {
-  background: url("images/journal.svg") center/cover no-repeat, #d6b089;
+  background:
+    url("https://i.pinimg.com/736x/d3/71/71/d37171765126c86df0b0720caf4dfa60.jpg") center/cover no-repeat,
+    url("images/journal.svg") center/cover no-repeat,
+    #d6b089;
 }
 .v-spiritual {
-  background: url("images/bible.svg") center/cover no-repeat, #87a8a0;
+  background:
+    url("https://i.pinimg.com/1200x/2d/f5/03/2df503f863eb93a7d39f67eb66fd736c.jpg") center/cover no-repeat,
+    url("images/bible.svg") center/cover no-repeat,
+    #87a8a0;
 }
 .v-transitions {
-  background: url("images/gate.svg") center/cover no-repeat, #8aa7ac;
+  background:
+    url("https://i.pinimg.com/564x/43/a2/92/43a29237c8ae1453a084934d3a358584.jpg") center/cover no-repeat,
+    url("images/gate.svg") center/cover no-repeat,
+    #8aa7ac;
 }
 
 /* ==========================================================
