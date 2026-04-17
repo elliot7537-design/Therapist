@@ -178,7 +178,8 @@ button { font: inherit; }
   padding: 22px;
   color: #fff;
   background:
-    linear-gradient(170deg, rgba(12,30,34,0.35) 0%, rgba(12,30,34,0.05) 35%, rgba(12,30,34,0.55) 100%),
+    linear-gradient(170deg, rgba(12,30,34,0.45) 0%, rgba(12,30,34,0.1) 35%, rgba(12,30,34,0.65) 100%),
+    url("https://i.pinimg.com/736x/24/d9/5d/24d95dad4f55a7a259745b4d0d9eef1d.jpg") center/cover no-repeat,
     url("images/hero.svg") center/cover no-repeat,
     linear-gradient(160deg, #9cbac2 0%, #6f9aa3 55%, #4d7e86 100%);
   box-shadow: var(--shadow-lg);
@@ -370,7 +371,10 @@ button { font: inherit; }
 .mission-photo {
   aspect-ratio: 3/4;
   border-radius: var(--radius-lg);
-  background: url("images/portrait.svg") center/cover no-repeat, #e4c59a;
+  background:
+    url("https://i.pinimg.com/736x/a0/05/e8/a005e8455d4ae27dedd63b6d5988fa44.jpg") center/cover no-repeat,
+    url("images/portrait.svg") center/cover no-repeat,
+    #e4c59a;
   box-shadow: var(--shadow-md);
 }
 .mission-chip {
@@ -435,10 +439,16 @@ button { font: inherit; }
   min-height: 240px;
 }
 .ph-1 {
-  background: url("images/horizon.svg") center/cover no-repeat, #6f9aa3;
+  background:
+    url("https://i.pinimg.com/474x/03/af/fa/03affa438f7cc6503d97d9c9f15e5c0c.jpg") center/cover no-repeat,
+    url("images/horizon.svg") center/cover no-repeat,
+    #6f9aa3;
 }
 .ph-2 {
-  background: url("images/dove.svg") center/cover no-repeat, #87a394;
+  background:
+    url("https://i.pinimg.com/236x/45/2d/74/452d74bb890e01c5eaead96c98aeea16.jpg") center/cover no-repeat,
+    url("images/dove.svg") center/cover no-repeat,
+    #87a394;
 }
 
 .card-body {
@@ -676,7 +686,10 @@ button { font: inherit; }
 .about-photo {
   aspect-ratio: 3/4;
   border-radius: var(--radius-lg);
-  background: url("images/portrait.svg") center/cover no-repeat, #e4c59a;
+  background:
+    url("https://i.pinimg.com/736x/a0/05/e8/a005e8455d4ae27dedd63b6d5988fa44.jpg") center/cover no-repeat,
+    url("images/portrait.svg") center/cover no-repeat,
+    #e4c59a;
   box-shadow: var(--shadow-md);
 }
 .about-copy p { max-width: 60ch; color: var(--ink-soft); margin: 0 0 16px; }
